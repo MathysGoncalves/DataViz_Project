@@ -201,7 +201,7 @@ def main():
         st.text("")
         st.text("")
         col1.write("Features importance")
-        var_importance(model, col1)
+        #var_importance(model, col1)
         col2.write("Valeur Fonciere predicted")
         col2.image("Scatter.png")
         
