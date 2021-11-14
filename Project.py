@@ -48,7 +48,7 @@ def load_data():
     #df_2018 = pd.read_csv("full_2018.csv")
     #df_2019 = pd.read_csv("full_2019.csv")
     #df = pd.read_csv("full_2020.csv")
-    df = pd.read_csv('https://jtellier.fr/DataViz/full_2020.csv')
+    df = pd.read_csv("Sample.csv")
 
     #df = pd.concat([df_2018, df_2019, df_2020], ignore_index=True)
     
@@ -193,6 +193,7 @@ def main():
     #new_output = model.predict(new_input)
     
     #col5.metric(label="Sell Price", value="%.2f" %new_output)
+    col5.metric(label="Sell Price", value="Prediction...")
 
     st.text("")
     col1, col2 = st.columns((1, 2))
